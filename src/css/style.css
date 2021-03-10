@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  width:100%;
+  background:#F2F2F2;
+  height: 100%;
+}
+
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+
+.menu a {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+
+.game {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+
+table {
+  border: 1px solid rgb(204, 204, 204);
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  table-layout: fixed;
+}
+
+table tr {
+  background-image: url("../images/background.png");
+  border: 1px solid #ddd;
+  padding: 5.6px;
+}
+
+table td {
+  padding: 10px;
+  text-align: center;
+}
+
+table td img {
+  display:block;
+  height: auto;
+  width: 100%;
+}
