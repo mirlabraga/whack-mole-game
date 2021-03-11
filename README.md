@@ -35,7 +35,7 @@ On the *../whack-mole-game/src/js/cofig.js* you can config parameter for
 
 ## How does it work?!
 
-![](http://g.recordit.co/Yk5YRGGhI0.gif)ss
+![](http://g.recordit.co/Yk5YRGGhI0.gif)
 
 ## Improvement points
 
