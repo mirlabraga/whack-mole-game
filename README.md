@@ -35,9 +35,11 @@ On the *../whack-mole-game/src/js/cofig.js* you can config parameter for
 
 ## How does it work?!
 
+Click on the image and see the tutoria video.
+
 ![](http://g.recordit.co/Yk5YRGGhI0.gif)
 
-[(TutorialVideo)] (https://s3.amazonaws.com/img0.recordit.co/Yk5YRGGhI0.mp4?AWSAccessKeyId=AKIAUQ5RURZ7ND2T2B6I&Expires=1615462540&Signature=OdC4cQR8oXiUPwg7g9CMs%2F47Fr8%3D)
+[![Watch the video](https://i.ibb.co/fQHnhMB/Screen-Shot-2021-03-11-at-10-39-09-am.png)](https://s3.amazonaws.com/img0.recordit.co/Yk5YRGGhI0.mp4?AWSAccessKeyId=AKIAUQ5RURZ7ND2T2B6I&Expires=1615462540&Signature=OdC4cQR8oXiUPwg7g9CMs%2F47Fr8%3D)
 
 ## Improvement points
 
