@@ -37,6 +37,8 @@ On the *../whack-mole-game/src/js/cofig.js* you can config parameter for
 
 ![](http://g.recordit.co/Yk5YRGGhI0.gif)
 
+[(TutorialVideo)] (https://s3.amazonaws.com/img0.recordit.co/Yk5YRGGhI0.mp4?AWSAccessKeyId=AKIAUQ5RURZ7ND2T2B6I&Expires=1615462540&Signature=OdC4cQR8oXiUPwg7g9CMs%2F47Fr8%3D)
+
 ## Improvement points
 
 |  Improvement |  Descrition |
