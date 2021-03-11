@@ -12,17 +12,17 @@
   <title>Whack Mole Game</title>
 </head>
 
-<body style="width:100%; background-color: rgb(216, 227, 218); height: 100%;">
+<body>
 
-  <div style="background-color:#e5e5e6;padding:15px;text-align:center;">
-    <p>scores: <span id="scores" style="color:red">0</span> point(s)</p>
-    <p>timeout: <span id="timeout" style="color:red">red</span> second(s)</p>
+  <div class="info">
+    <p>Scores: <span id="scores">0</span> point(s)</p>
+    <p>Timeout: <span id="timeout" data-value="whatever">0</span> second(s)</p>
   </div>
 
   <div style="overflow:auto">
 
     <div class="menu">
-      <a href="#" onclick="startGame(event)">Start</a>
+      <a href="#" onclick="startGame()">Start</a>
       <a href="#" onclick="stopGame()">Stop</a>
       <a href="#" onclick="resetGame()">Reset</a>
       <a href="#" onclick="alert(`${messages.help}`)">Help</a>

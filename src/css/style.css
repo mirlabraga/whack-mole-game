@@ -2,10 +2,20 @@
   box-sizing: border-box;
 }
 
-.body {
+body {
   width:100%;
-  background:#F2F2F2;
   height: 100%;
+  background-color:#d8e3da;
+}
+
+.info {
+  background-color:#e5e5e6;
+  padding:15px;
+  text-align:center;
+}
+
+.info span {
+  color:red
 }
 
 .menu {
@@ -53,4 +63,40 @@ table td img {
   display:block;
   height: auto;
   width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+@media only screen and (max-width:620px) {
+  .info .menu, .game {
+    width:100%;
+  }
 }
